@@ -1,3 +1,4 @@
+//  Get the values of the Sheet
 function getLogSheet(){
   // refers the spreadsheet application
   var app = SpreadsheetApp;
@@ -16,6 +17,7 @@ function getLogSheet(){
   }
 }
 
+//  Get the values of the Sheet - Alternative way!
 function getLogSheetRevision(){
   var spreadsheet = SpreadsheetApp.getActive();
   var sheet = spreadsheet.getActiveSheet();
